@@ -2,7 +2,8 @@ name: Deploy Laravel to Vercel
 
 on:
   push:
-    branches: master
+    branches: [ "master" ]
+
 jobs:
   deploy:
     name: Deploy
