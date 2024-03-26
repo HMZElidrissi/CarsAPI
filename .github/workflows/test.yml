@@ -5,8 +5,8 @@ on:
     branches: [ "master" ]
 
 jobs:
-  laravel-tests:
-
+  test:
+    name: Test
     runs-on: ubuntu-latest
 
     steps:
