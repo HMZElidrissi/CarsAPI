@@ -1,3 +1,5 @@
+name: Deploy Laravel to Vercel
+
 on:
   push:
     branches: master
