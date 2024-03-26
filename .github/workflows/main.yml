@@ -21,7 +21,6 @@ jobs:
 
       - name: Run Artisan commands
         run: |
-          php artisan key:generate
           php artisan optimize
           php artisan migrate --force
           php artisan db:seed --force
