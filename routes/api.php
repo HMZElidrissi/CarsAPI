@@ -13,7 +13,6 @@ Route::get('/hello', function () {
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
-// Route::get('/cars', [CarController::class, 'index']);
 // Route::apiResource('/users', UserController::class);
 
 Route::middleware('auth:sanctum')->group(function () {

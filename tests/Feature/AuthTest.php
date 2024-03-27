@@ -56,7 +56,7 @@ class AuthTest extends TestCase
             'password' => bcrypt('password'),
         ]);
 
-        $token = $user->createToken('authToken')->plainTextToken;
+        $user->createToken('authToken')->plainTextToken;
 
         $response = $this->actingAs($user)->postJson('/backend/logout');
 
